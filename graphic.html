@@ -9,6 +9,7 @@
     <title>James's Graphic Design Work</title>
     <link id="fav" rel="icon" type="image/x-icon"
         href="https://drive.google.com/uc?export=view&id=1HAppUWOH_jiGuSlltJVj6qMlANZBSAdo">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -23,6 +24,13 @@
         <img class="image" src="https://live.staticflickr.com/65535/52317680819_a3f7859b2a_m.jpg" alt="Dead Gary">
 
     </div>
+    <script>
+        $(document).ready(function () {
+            $("body").on("contextmenu", function (e) {
+                return false;
+            });
+        });
+    </script>
 </body>
 
 </html>
