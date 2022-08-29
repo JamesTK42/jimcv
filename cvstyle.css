@@ -234,7 +234,7 @@ a {
 
     }
 
-    .image:active {
+    .image:hover {
         width: 85vw;
         max-width: 85vw;
 
