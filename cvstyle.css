@@ -2,6 +2,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p,
 b,
 li {
@@ -9,6 +11,12 @@ li {
     font-size: 12pt;
     text-align: justify;
     line-height: 1.4;
+}
+
+.PS {
+    line-height: 1.6;
+    padding-bottom: 20px;
+
 }
 
 a {
@@ -68,6 +76,8 @@ a {
         h2,
         h3,
         h4,
+        h5,
+        h6,
         p,
         b,
         li,
@@ -148,6 +158,8 @@ a {
         h2,
         h3,
         h4,
+        h5,
+        h6,
         p,
         b,
         li,
@@ -258,6 +270,8 @@ a {
         h2,
         h3,
         h4,
+        h5,
+        h6,
         p,
         b,
         li,
@@ -345,6 +359,8 @@ a {
         h2,
         h3,
         h4,
+        h5,
+        h6,
         p,
         b,
         li,
